@@ -1,0 +1,7 @@
+com\laboratorio\demoproducerapi\DemoProducerApi$1.class
+com\laboratorio\demoproducerapi\kafka\NotificacionProductor.class
+com\laboratorio\demoproducerapi\config\MastodonConfig.class
+com\laboratorio\demoproducerapi\DemoProducerApi.class
+com\laboratorio\demoproducerapi\kafka\ProductorKafka.class
+com\laboratorio\demoproducerapi\modelo\Event.class
+com\laboratorio\demoproducerapi\modelo\Subscription.class
