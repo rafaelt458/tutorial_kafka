@@ -1,0 +1,13 @@
+{
+  "name": "mongodb-sink-connector",
+  "connector.class": "com.mongodb.kafka.connect.MongoSinkConnector",
+  "tasks.max": "1",
+  "topics": "postgres-articulos",
+  "connection.uri": "mongodb://admin:1234@192.168.1.134:27017",
+  "database": "testkafka",
+  "collection": "articulos",
+  "key.converter": "org.apache.kafka.connect.storage.StringConverter",
+  "value.converter": "org.apache.kafka.connect.json.JsonConverter",
+  "value.converter.schemas.enable": "false",
+  "errors.retry.timeout": 10000
+}

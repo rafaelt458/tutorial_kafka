@@ -1,0 +1,15 @@
+{
+  "name": "postgre-jdbc-source-articulos",
+  "config": {
+    "connector.class": "io.confluent.connect.jdbc.JdbcSourceConnector",
+    "connection.url": "jdbc:postgresql://192.168.1.70:5432/laboratorio",
+    "connection.user": "laboratorio",
+    "connection.password": "laboratorio",
+	"schema.pattern": "public",
+    "table.whitelist": "articulos",
+    "mode": "incrementing",
+    "incrementing.column.name": "codigo",
+	"topic.prefix": "postgres-",
+	"name": "postgre-jdbc-source-articulos"
+  }
+}
